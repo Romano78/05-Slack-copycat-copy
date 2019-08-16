@@ -1,0 +1,47 @@
+.organizations-sidebar {
+  background-color: #261C25;
+  padding-right: 30px;
+}
+
+.organization.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-size: 16px;
+  opacity: 1;
+  margin-bottom: 0;
+}
+
+.organization {
+  color: white;
+  margin-top: 14px;
+  margin-left: 18px;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+  opacity: .3;
+}
+
+
+.conversation-sidebar {
+  background: #4B3949;
+  margin-top: 0;
+  width: 188px;
+}
+
+
+#username {
+  font-size: 16px;
+  margin-top: 0;
+  color: white;
+  opacity: .5;
+  padding-left: 23px;
+
+}
+
+.conversation-sidebar h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  color: white;
+  margin-top: 14px;
+  padding-left: 10px;
+}

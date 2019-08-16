@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+    <!-- organization slide bar -->
+    <div class="slack-container">
+      <div class="organizations-sidebar">
+        <h2 class ="organization active">LW</h2>
+        <h2 class="organization">SL</h2>
+      </div>
+      <div class="conversation-sidebar">
+        <h1>Le Wagon</h1>
+        <div class="person">
+          <div class="online-badge"></div>
+          <span id= 'username'>romano78</span>
+        </div>
+      <div class="chat-section">
+        <div class="chat-section-header">
+          <h3>Channels</h3>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="channel">
+          <span>
+          <i class="fab fa-slack-hash"></i>
+            general
+          </span>
+        </div>
+        <div class="channel">
+          <span>
+          <i class="fab fa-slack-hash"></i>
+            help
+          </span>
+        </div>
+        <div class="channel active">
+          <span>
+          <i class="fab fa-slack-hash"></i>
+            design
+          </span>
+        </div>
+        <div class="channel">
+          <span>
+          <i class="fas fa-lock"></i>
+            friday drinks
+          </span>
+        </div>
+        <div class="channel">
+          <span>
+          <i class="fas fa-lock"></i>
+            climbing
+          </span>
+        </div>
+      </div>
+      <div class="chat-message">
+        <div class="chat-message-header">
+          <h3>Direct Message</h3>
+           <i class="fas fa-plus"></i>
+        </div>
+      </div>
+      <div class="person">
+        <div class="online-badge"></div>
+          <span>Philippe</span>
+        </div>
+      <div class="person">
+        <div class="online-badge"></div>
+        <span>Marc</span>
+      </div>
+      <div class="person active">
+        <div class="online-badge" id="off"></div>
+        <span>Simon</span>
+      </div>
+      <div class="person active">
+        <div class="online-badge" id= off></div>
+        <span>Roberts</span>
+      </div>
+    </div>
+      <div class="chat-container">
+        <div class="chat-header">
+          <i id="chat-header-hash" class="fab fa-slack-hash"></i>
+          <span id='design'>design</span>
+        </div>
+        <div class="chat-discussion-container">
+
+          <div class="chat-discussion">
+            <img class="avatar-small"src="https://kitt.lewagon.com/placeholder/users/Simondharcourt" alt="">
+            <div class="chat-discussion-info">
+              <h3>Simmon-delacourt</h3>
+              <p>Hey everyone 👋 We’ve just launched a new Le Wagon UI Kit 🚀 👉 <a href="https://uikit.lewagon.com/">https://uikit.lewagon.com/</a></p>
+            </div>
+          </div>
+          <div class="chat-discussion">
+            <img class="avatar-small"src="https://kitt.lewagon.com/placeholder/users/v-bianchi" alt="">
+            <div class="chat-discussion-info">
+              <h3>Victore Bianchi</h3>
+              <p>yay! 🤟</a></p>
+            </div>
+          </div>
+          <div class="chat-discussion">
+            <img class="avatar-small"src="https://kitt.lewagon.com/placeholder/users/soniamontero" alt="">
+            <div class="chat-discussion-info">
+              <h3>Sonia Montero</h3>
+              <p>That looks great, why don't you add a <span>.card</span> like on dribbble with a cool hover effect? 😎</a></p>
+            </div>
+          </div>
+          <div class="chat-discussion">
+            <img class="avatar-small"src="https://kitt.lewagon.com/placeholder/users/jmadridvaquero" alt="">
+            <div class="chat-discussion-info">
+              <h3>Javier Vaquero</h3>
+              <p>Does it work on Linux? 🤓</a></p>
+            </div>
+          </div>
+          <div class="chat-discussion">
+            <img class="avatar-small"src="https://kitt.lewagon.com/placeholder/users/Romano78" alt="">
+            <div class="chat-discussion-info">
+              <h3>Romano pen</h3>
+              <p>Awesome!</p>
+            </div>
+          </div>
+        </div>
+        <div class="form-input">
+          <form action>
+            <input type="text" class="form-control" placeholder="Type your message...">
+        </div>
+      </div>
+
+    <!-- conversation slide bar -->
+
+
+
+
+
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
